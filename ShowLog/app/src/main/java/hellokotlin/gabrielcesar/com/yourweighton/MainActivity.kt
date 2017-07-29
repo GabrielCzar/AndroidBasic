@@ -1,19 +1,22 @@
-package hellokotlin.gabrielcesar.com.hellokotlin
+package hellokotlin.gabrielcesar.com.yourweighton
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import kotlinx.android.synthetic.main.activity_main.*
+import android.util.Log
+import android.view.View
+import android.widget.CheckBox
 
 class MainActivity : AppCompatActivity() {
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        var enteredText = enterNameEdt.text
+    }
 
-        showNameBtn.setOnClickListener {
-            resultView.text = "Welcome ${enteredText.toString()}"
-        }
+    fun showLog(v : View) {
+        v as CheckBox
+        Log.d("Click", "entrou" + v.text)
     }
 }

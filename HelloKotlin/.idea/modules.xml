@@ -3,7 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/HelloKotlin.iml" filepath="$PROJECT_DIR$/HelloKotlin.iml" />
-      <module fileurl="file://$PROJECT_DIR$/hello-kotlin-android/app.iml" filepath="$PROJECT_DIR$/hello-kotlin-android/app.iml" />
+      <module fileurl="file://C:\Users\PC\AndroidStudioProjects\HelloKotlin\hello-kotlin-android\app.iml" filepath="C:\Users\PC\AndroidStudioProjects\HelloKotlin\hello-kotlin-android\app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello-kotlin-android/hello-kotlin-android.iml" filepath="$PROJECT_DIR$/hello-kotlin-android/hello-kotlin-android.iml" />
     </modules>
   </component>
 </project>
